@@ -1,0 +1,23 @@
+Version 0.0.1
+Release Date: 01-11-2025
+Changes and Features:
+- Project Initialization:
+	•	Set up repository structure adhering to clean, modular design principles:
+	•	app/ for API source code.
+	•	data/ for datasets (tracked with Git LFS).
+	•	models/ for machine learning models (tracked with Git LFS).
+	•	Included .gitignore to prevent unnecessary files from being committed.
+- API Development:
+	•	Added main.py and inference.py for running and serving the insider trading analysis API.
+	•	Incorporated a lightweight and scalable design for ease of deployment.
+- Containerization:
+	•	Added Dockerfile to containerize the application for seamless deployment in local and cloud environments (e.g., AWS EC2).
+	•	Verified the container build and run process for robust compatibility.
+- Large File Management:
+	•	Integrated Git LFS to efficiently track large files:
+	•	Datasets: data/insider_trader_finance.csv.
+	•	Machine Learning Model: models/xgbInsider.json.
+- Documentation:
+	•	Created a comprehensive README.md with setup instructions, usage guidelines, and information on accessing large files.
+	•	Included clear guidelines for building and running the Docker image locally or on external environments.
+- TODO: Test funcitonality, deployment and upgrades.

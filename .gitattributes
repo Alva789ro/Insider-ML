@@ -1,0 +1,2 @@
+xgbInsider.json filter=lfs diff=lfs merge=lfs -text
+insider_trader_finance.csv filter=lfs diff=lfs merge=lfs -text
