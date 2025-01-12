@@ -6,8 +6,8 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from json import loads
 
-S3_BUCKET = "xgb-insider"
-MODEL_KEY = "models/xgbInsider"  
+S3_BUCKET = "" #your s3 bucket
+MODEL_KEY = "" 
 
 def prepare_data(data):
     """
