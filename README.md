@@ -1,4 +1,4 @@
-# InsiderAnalytics
+# Insider Trading Analytics
 
 This project provides a machine learning pipeline to analyze insider trading transactions. It includes a Dockerized API for deployment, along with data ingestion and processing scripts.
 
